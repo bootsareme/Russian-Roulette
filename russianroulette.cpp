@@ -18,6 +18,7 @@ void fnSpawnModalMsg()
 		fnInduceBSODHardCrash();
 	else
 	{
+		// random messages while playing
 		const int response = MessageBoxW(
 			nullptr,
 			alpDialog[fate - 1],

