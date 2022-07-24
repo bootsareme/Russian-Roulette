@@ -137,6 +137,9 @@
   <ItemGroup>
     <ClInclude Include="dialoglist.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="payload.asm" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
